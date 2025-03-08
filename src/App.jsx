@@ -1,4 +1,4 @@
-import { Avatar, Box, Button, Stack } from "@mui/material";
+import { Avatar, Button, Stack, Typography } from "@mui/material";
 import Card from "./components/Card";
 
 import useApi from "./useApi";
@@ -38,6 +38,9 @@ const App = () => {
       bgcolor="#0f1214"
       justifyContent="space-between"
     >
+      <Typography variant="h1" color="warning">
+        Hola Sheila
+      </Typography>
       <Stack
         direction="row"
         p={3}
