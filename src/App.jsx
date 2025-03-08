@@ -37,9 +37,10 @@ const App = () => {
       width="100%"
       bgcolor="#0f1214"
       justifyContent="space-between"
+      alignItems="center"
     >
-      <Typography variant="h1" color="warning">
-        Hola Sheila
+      <Typography variant="h1" color="warning" fontWeight={700}>
+        Dragon Ball
       </Typography>
       <Stack
         direction="row"
